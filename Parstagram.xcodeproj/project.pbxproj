@@ -10,6 +10,8 @@
 		04B8612877A1BBA69EE20984 /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA384C9891F397D71420883A /* Pods_ParstagramUITests.framework */; };
 		8FF7FFAB3CAF100F6E36EDD9 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8896AA344DF429F3D9F765B1 /* Pods_Parstagram.framework */; };
 		ACCA507D8E66F1A91DF6E8F1 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BCBDE6A9EEDBBDAE4F38A9 /* Pods_ParstagramTests.framework */; };
+		D703890C22486CEA00E51E87 /* Instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D703890B22486CEA00E51E87 /* Instagram-logo.png */; };
+		D703890E22486F8D00E51E87 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D703890D22486F8D00E51E87 /* CommentCell.swift */; };
 		D77F71C2222DEEF4009E7C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F71C1222DEEF4009E7C18 /* AppDelegate.swift */; };
 		D77F71C7222DEEF4009E7C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77F71C5222DEEF4009E7C18 /* Main.storyboard */; };
 		D77F71C9222DEEF5009E7C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77F71C8222DEEF5009E7C18 /* Assets.xcassets */; };
@@ -18,7 +20,6 @@
 		D77F71E2222DEEF5009E7C18 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77F71E1222DEEF5009E7C18 /* ParstagramUITests.swift */; };
 		D79E5EE52238B0E700D593F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E5EE42238B0E700D593F3 /* LoginViewController.swift */; };
 		D79E5EE72238B0F700D593F3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E5EE62238B0F700D593F3 /* FeedViewController.swift */; };
-		D79E5EEB2238B6BC00D593F3 /* Instagram-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D79E5EEA2238B6BC00D593F3 /* Instagram-logo.png */; };
 		D79E5EED2238B8DA00D593F3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E5EEC2238B8DA00D593F3 /* CameraViewController.swift */; };
 		D79E5EEF2238BFA200D593F3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E5EEE2238BFA200D593F3 /* PostCell.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,8 @@
 		B6BCBDE6A9EEDBBDAE4F38A9 /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8ECA155215B99A2056CA4FB /* Pods-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA384C9891F397D71420883A /* Pods_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D703890B22486CEA00E51E87 /* Instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Instagram-logo.png"; path = "../../../../.Trash/Instagram-logo.png"; sourceTree = "<group>"; };
+		D703890D22486F8D00E51E87 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		D77F71BE222DEEF4009E7C18 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77F71C1222DEEF4009E7C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D77F71C6222DEEF4009E7C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,7 +66,6 @@
 		D77F71E3222DEEF5009E7C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79E5EE42238B0E700D593F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D79E5EE62238B0F700D593F3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		D79E5EEA2238B6BC00D593F3 /* Instagram-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Instagram-logo.png"; path = "../../../../Downloads/Instagram-logo.png"; sourceTree = "<group>"; };
 		D79E5EEC2238B8DA00D593F3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D79E5EEE2238BFA200D593F3 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		E7B9D223CE1B1E5E97C5152A /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,7 +147,7 @@
 		D77F71C0222DEEF4009E7C18 /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
-				D79E5EEA2238B6BC00D593F3 /* Instagram-logo.png */,
+				D703890B22486CEA00E51E87 /* Instagram-logo.png */,
 				D77F71C1222DEEF4009E7C18 /* AppDelegate.swift */,
 				D77F71C8222DEEF5009E7C18 /* Assets.xcassets */,
 				D77F71C5222DEEF4009E7C18 /* Main.storyboard */,
@@ -155,6 +157,7 @@
 				D79E5EE62238B0F700D593F3 /* FeedViewController.swift */,
 				D79E5EEC2238B8DA00D593F3 /* CameraViewController.swift */,
 				D79E5EEE2238BFA200D593F3 /* PostCell.swift */,
+				D703890D22486F8D00E51E87 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -286,9 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D77F71CC222DEEF5009E7C18 /* LaunchScreen.storyboard in Resources */,
+				D703890C22486CEA00E51E87 /* Instagram-logo.png in Resources */,
 				D77F71C9222DEEF5009E7C18 /* Assets.xcassets in Resources */,
 				D77F71C7222DEEF4009E7C18 /* Main.storyboard in Resources */,
-				D79E5EEB2238B6BC00D593F3 /* Instagram-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +368,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -374,6 +378,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +420,7 @@
 				D79E5EE72238B0F700D593F3 /* FeedViewController.swift in Sources */,
 				D77F71C2222DEEF4009E7C18 /* AppDelegate.swift in Sources */,
 				D79E5EEF2238BFA200D593F3 /* PostCell.swift in Sources */,
+				D703890E22486F8D00E51E87 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
